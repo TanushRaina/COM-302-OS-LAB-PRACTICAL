@@ -1,153 +1,179 @@
 # ⚡ Operating Systems Lab
 
-### Operating Systems Lab Practicals
+**Operating Systems Lab Practicals**
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Domain-Operating%20Systems-00D4FF?style=for-the-badge](https://img.shields.io/badge/Domain-Operating%20Systems-00D4FF?style=for-the-badge)" />
-&#x20; \<img src="[https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge\&logo=c)" />
-&#x20; \<img src="[https://img.shields.io/badge/Scripting-Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white](https://img.shields.io/badge/Scripting-Bash-4EAA25?style=for-the-badge\&logo=gnubash\&logoColor=white)" />
-&#x20; \<img src="[https://img.shields.io/badge/Platform-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black](https://img.shields.io/badge/Platform-Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)" />
-\</p>
+![Linux](https://img.shields.io/badge/OS-Ubuntu_Linux-orange?style=for-the-badge&logo=linux&logoColor=white)
+![C](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c)
+![Bash](https://img.shields.io/badge/Scripting-Bash-green?style=for-the-badge&logo=gnubash)
+![GCC](https://img.shields.io/badge/Compiler-GCC-red?style=for-the-badge&logo=gnu)
 
-\<p align="center">
-&#x20; \<b>Exploring the internals of Linux through hands-on system programming, shell scripting, and process management.\</b>
-\</p>
+> Exploring the internals of Linux through hands-on system programming, shell scripting, memory management, and process management.
 
 ---
 
-## 🧠 About The Repository
+## 🧠 About The Project
 
-This repository contains a collection of **10 Operating Systems Lab Practicals** designed to explore fundamental operating system concepts through practical implementation.
+This repository contains **10 Operating Systems Lab Practicals** focused on understanding fundamental operating system concepts through hands-on implementation.
 
-The experiments are performed in an Ubuntu Linux environment using Oracle VirtualBox, combining **Bash scripting, C programming, and Linux system utilities**.
+Developed in an Ubuntu Linux environment using Oracle VirtualBox, these experiments combine **C programming, Bash scripting, and Linux system utilities** to explore how operating systems manage processes, memory, files, and system resources.
 
-From basic terminal operations to process creation, memory management, and CPU monitoring, this repository documents my hands-on exploration of how an operating system works behind the scenes.
+From basic terminal operations to process creation and virtual memory analysis, each practical demonstrates an essential component of Linux operating system functionality.
 
 ## 🎯 Learning Objectives
 
-- Understand fundamental Linux commands and terminal operations.
+- Understand Linux commands and terminal operations.
 - Practice input/output redirection, pipes, and file management.
 - Develop shell scripts for file and directory operations.
-- Perform string operations using Bash and C.
-- Understand memory allocation and memory deallocation.
+- Perform string manipulation using Bash and C.
+- Explore memory allocation and deallocation.
 - Analyze CPU-bound and I/O-bound processes.
-- Explore process memory mapping using `pmap`.
+- Investigate process memory mapping using `pmap`.
 - Understand process creation and termination using `fork()` and `exit()`.
 - Observe process IDs and virtual memory addresses.
-- Develop practical knowledge of Linux system-level operations.
+- Gain practical experience with Linux system-level operations.
 
-## 🛠️ Tech Stack & Tools
+## 🛠️ Technology Stack
 
-| Technology           | Purpose                       |
-| :------------------- | :---------------------------- |
-| 🐧 Ubuntu Linux      | Operating System Environment  |
-| 📦 Oracle VirtualBox | Virtualization                |
-| 💻 C Programming     | System Programming            |
-| ⚙️ Bash              | Shell Scripting               |
-| 🔧 GCC               | C Compiler                    |
-| 📊 `top`             | Process and CPU Monitoring    |
-| 🧠 `free`            | Memory Usage Monitoring       |
-| 🔍 `pmap`            | Process Memory Mapping        |
-| 📋 `ps`              | Process Information           |
-| 📈 `htop`            | Interactive System Monitoring |
+| Technology | Application |
+|---|---|
+| 🐧 Ubuntu Linux | Operating System |
+| 📦 Oracle VirtualBox | Virtualization |
+| 💻 C Programming | System Programming |
+| ⚙️ Bash | Shell Scripting |
+| 🔧 GCC | C Compiler |
+| 📊 `top` | CPU & Process Monitoring |
+| 🧠 `free` | Memory Monitoring |
+| 🔍 `pmap` | Process Memory Mapping |
+| 📋 `ps` | Process Information |
+| 📈 `htop` | Interactive System Monitoring |
+
+---
 
 ## 🧪 Practical Experiments
 
-This repository covers the following **10 practical experiments**:
+A collection of 10 practical experiments covering essential Operating Systems concepts.
 
-|  #  | Experiment                 | Concepts                                                     |
-| :-: | :------------------------- | :----------------------------------------------------------- |
-|  01 | Basic Linux Commands       | File operations, pipes, redirection, editors                 |
-|  02 | System & Text Information  | Date, user information, `sed`                                |
-|  03 | Shell Scripting            | File information, directory operations, uppercase conversion |
-|  04 | Login & File Management    | User login time and shell-based file manipulation            |
-|  05 | String Operations          | Bash, C, command-line arguments                              |
-|  06 | Memory Management          | Memory allocation and deallocation using `free`              |
-|  07 | CPU & Process Analysis     | CPU-bound and I/O-bound programs using `top`                 |
-|  08 | Process Memory Mapping     | Memory analysis using `pmap`                                 |
-|  09 | Process Creation           | Child processes using `fork()` and `exit()`                  |
-|  10 | Process Memory Observation | Variable addresses across multiple processes                 |
+| # | Practical | Concepts Covered |
+|:---:|---|---|
+| 01 | Basic Linux Commands | File operations, pipes, redirection, editors |
+| 02 | System & Text Information | Date, user information, `sed` |
+| 03 | Shell Scripting | File information, directory operations, uppercase conversion |
+| 04 | Login & File Management | User login time and shell-based file manipulation |
+| 05 | String Operations | Bash, C, command-line arguments |
+| 06 | Memory Management | Memory allocation and deallocation |
+| 07 | CPU & Process Analysis | CPU-bound and I/O-bound processes |
+| 08 | Process Memory Mapping | Process memory analysis using `pmap` |
+| 09 | Process Creation | Child processes using `fork()` and `exit()` |
+| 10 | Process Memory Observation | Variable addresses across multiple processes |
 
-## ⚡ Key Concepts Explored
+---
 
-### 01. Linux & Shell Fundamentals
+## ⚡ Core Concepts
 
-Working with the Linux command-line interface, file systems, shell commands, pipes, and input/output redirection.
+### 🐧 Linux & Shell Fundamentals
+Understanding the Linux command-line interface, file systems, terminal commands, pipes, and input/output redirection.
 
-### 02. Shell Scripting & Automation
+### ⚙️ Shell Scripting & Automation
+Developing Bash scripts for file operations, system information retrieval, and text manipulation.
 
-Writing Bash scripts to automate file operations, retrieve system information, and perform text manipulation.
+### 🧠 Memory Management
+Exploring memory allocation, deallocation, memory utilization, and virtual memory concepts.
 
-### 03. Memory Management
+### 🔄 Process Management
+Understanding process creation, child processes, process termination, and system calls.
 
-Exploring memory allocation, deallocation, memory usage, and virtual memory concepts.
+### 📊 System Monitoring
+Analyzing CPU utilization, memory consumption, and process behavior using Linux monitoring utilities.
 
-### 04. Process Management
+---
 
-Understanding process creation, child processes, process termination, and process-related system calls.
-
-### 05. System Monitoring
-
-Analyzing CPU utilization, memory consumption, and process behavior through Linux monitoring utilities.
-
-## 🚀 Running the Programs
+## 🚀 Getting Started
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Make sure the following tools are available:
 
 - Ubuntu Linux
 - GCC Compiler
 - Bash Shell
-- Oracle VirtualBox (if running Ubuntu in a virtual machine)
+- Oracle VirtualBox (optional, for virtualized Ubuntu environment)
 
-### Compile & Execute C Programs
+### Running C Programs
+
+Clone the repository:
 
 ```bash
-# Compile a C program
-gcc program.c -o program
+git clone <your-repository-url>
+cd <repository-name>
+```
 
-# Execute the compiled program
+Compile a C program:
+
+```bash
+gcc program.c -o program
+```
+
+Execute:
+
+```bash
 ./program
 ```
 
-### Execute Shell Scripts
+### Running Bash Scripts
+
+Grant execution permission:
 
 ```bash
-# Give execution permission
 chmod +x script.sh
+```
 
-# Run the script
+Execute the script:
+
+```bash
 ./script.sh
 ```
 
+---
+
 ## 📚 Learning Outcomes
 
-Through these practical experiments, I developed a better understanding of:
+Through these practical implementations, I gained hands-on experience with:
 
-- Linux operating system functionality.
-- Shell scripting and command-line automation.
-- C programming for system-level operations.
+- Linux command-line operations.
+- Bash scripting and automation.
+- C-based system programming.
 - Process creation and execution.
 - Memory allocation and process memory mapping.
-- CPU and memory monitoring.
-- Fundamental operating system concepts through hands-on implementation.
+- CPU and memory utilization monitoring.
+- Fundamental operating system architecture and functionality.
 
-This repository serves as a record of my practical learning and implementation of fundamental Operating Systems concepts.
+Each experiment contributes to a practical understanding of how an operating system manages hardware resources and executes programs.
 
 ---
 
 ## 💻 Development Environment
 
-| Configuration        | Details                 |
-| :------------------- | :---------------------- |
-| Environment          | Ubuntu Linux            |
-| Virtualization       | Oracle VirtualBox       |
-| Project Type         | Academic Lab Practicals |
-| Programming Language | C                       |
-| Scripting Language   | Bash                    |
-| Compiler             | GCC                     |
+| Configuration | Details |
+|---|---|
+| Operating System | Ubuntu Linux |
+| Virtualization | Oracle VirtualBox |
+| Programming Language | C |
+| Scripting Language | Bash |
+| Compiler | GCC |
+| Project Category | Academic Lab Practicals |
 
 ---
 
-\<p align="center">   \<b>⚡ Learn by Building. Understand by Experimenting.\</b>   \<br/>   \<sub>Operating Systems Lab • Academic Practical Repository\</sub> \</p>
+## ⭐ Repository Highlights
+
+- 10 hands-on practical experiments.
+- C programming and Bash scripting.
+- Linux system utilities and commands.
+- Process and memory management.
+- Practical exploration of OS fundamentals.
+
+---
+
+**⚡ Learn by Building. Understand by Experimenting.**
+
+*Operating Systems Lab — Academic Practical Repository*
